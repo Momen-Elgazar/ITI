@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle">🌙</button>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h1>Welcome to My Personal Website</h1>
+
+        <p>
+          I am Mo’men Ahmed Elgazar(Mr Jazzar), a student at Faculty of
+          Computers and Artificial Intelligence.
+        </p>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <img
+          src="Images/WhatsApp Image 2024-03-23 at 16.28.53_32c3e5ef.jpg"
+          alt="My Photo"
+          class="profile-photo"
+        />
+        <p>
+          I am a second-year student at the Faculty of Computers and Artificial
+          Intelligence, Benha University. I have experience with C++, HTML, and
+          CSS, and I actively practice problem-solving. I also participated in
+          the Egyptian Collegiate Programming Contest (ECPC), where I further
+          developed my coding and algorithmic skills.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project">
+            <img
+              src="Images/Screenshot-2024-01-25-125829.jpg"
+              alt="Project 1"
+              class="project-image"
+            />
+            <h3>Weather Forecast Application</h3>
+            <p>
+              This web application fetches real-time weather data for any
+              location using an API. The app displays the current temperature,
+              humidity, wind speed, and a five-day forecast. It also has a sleek
+              user interface, featuring weather icons and dynamic background
+              changes based on the weather condition.
+            </p>
+            <a href="#" class="btn" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <img
+              src="Images/054YhGcdSr0FkY8pIDnot1L-11.webp"
+              alt="Project 2"
+              class="project-image"
+            />
+            <h3>Task Management Application</h3>
+            <p>
+              This project is a web-based task management application designed
+              to help users organize their daily tasks. The application allows
+              users to add, edit, and delete tasks, mark tasks as completed, and
+              categorize them into different projects. The UI is minimalistic,
+              with drag-and-drop functionality to reorder tasks and prioritize
+              them easily.
+            </p>
+            <a href="#" class="btn" target="_blank">View Project</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>C++</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>Problem Solving</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-icons">
+        <a
+          href="https://www.linkedin.com/in/mo-men-elgazar-b6a1302a0/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="mailto:momenelgazar2005@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a href="tel:+1234567890"><i class="fas fa-phone"></i></a>
+      </div>
+      <p>© 2024 All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
